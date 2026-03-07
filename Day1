@@ -15,7 +15,14 @@ takeo@cc5c91434bc2:~/data$ hadoop fs -put zipcodes.csv /user/test/data
 2026-02-18 08:07:46,690 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
 takeo@cc5c91434bc2:~/data$ 
 
+# 1. Create directory
+hdfs dfs -mkdir /data
 
+# 2. Put (upload) local file to HDFS
+hdfs dfs -put users.csv /data/
+
+# 3. List files
+hdfs dfs -ls /data/
 
 
 
