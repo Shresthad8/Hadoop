@@ -43,7 +43,22 @@ takeo@cc5c91434bc2:~/data$
 
 
 
-
+takeo@cc5c91434bc2:~/data/data1$ cd
+takeo@cc5c91434bc2:~$ cd data
+takeo@cc5c91434bc2:~/data$ hadoop fs -mkdir -p /user/test
+2026-02-18 08:04:45,787 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+takeo@cc5c91434bc2:~/data$ mkdir ~/data
+mkdir: cannot create directory '/home/takeo/data': File exists
+takeo@cc5c91434bc2:~/data$ cd ~/data
+takeo@cc5c91434bc2:~/data$ touch zipcodes.csv
+takeo@cc5c91434bc2:~/data$ nano.zipcodes.csv
+bash: nano.zipcodes.csv: command not found
+takeo@cc5c91434bc2:~/data$ nano zipcodes.csv
+takeo@cc5c91434bc2:~/data$ hadoop fs -mkdir -p /user/test/data
+2026-02-18 08:06:58,642 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+takeo@cc5c91434bc2:~/data$ hadoop fs -put zipcodes.csv /user/test/data
+2026-02-18 08:07:46,690 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+takeo@cc5c91434bc2:~/data$ 
 
 
 
