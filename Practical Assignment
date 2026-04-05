@@ -188,6 +188,10 @@ Duration,Pulse,Maxpulse,Calories
 ○	Create a csv file with bootcamp.csv on your local ubuntu machine (docker container).
 Touch bootcamp.csv
 
+●	Q 1. Please write down the ubuntu / hadoop commands for followings 
+○	Create a csv file with bootcamp.csv on your local ubuntu machine (docker container).
+Touch bootcamp.csv
+
 ○	Copy the below data into bootcamp.csv
 ■	
 Duration,Pulse,Maxpulse,Calories
