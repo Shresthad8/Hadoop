@@ -189,6 +189,13 @@ Duration,Pulse,Maxpulse,Calories
 60,100,120,300.0
 
 
+■	Upload bootcamp.csv into a hadoop dir  with name /user/test/bootcamp/data
+■	Print the first 5 records from the top
+Hadoop fs -cat /user/test/bootcamp/data/bootcamp.csv | head -5
+
+■	Print the last 5 records from the boot
+■	Hadoop fs -cat /user/test/bootcamp/data/bootcamp.csv | tail -5
+
 ●	Q 1. Please write down the ubuntu / hadoop commands for followings 
 ○	Create a csv file with bootcamp.csv on your local ubuntu machine (docker container).
 Touch bootcamp.csv
