@@ -51,6 +51,10 @@ Duration,Pulse,Maxpulse,Calories
 ■	Print the first 5 records from the top
 Hadoop fs -cat /user/test/bootcamp/data/bootcamp.csv | head -5
 
+■	Upload bootcamp.csv into a hadoop dir  with name /user/test/bootcamp/data
+■	Print the first 5 records from the top
+Hadoop fs -cat /user/test/bootcamp/data/bootcamp.csv | head -5
+
 ■	Print the last 5 records from the boot
 ■	Hadoop fs -cat /user/test/bootcamp/data/bootcamp.csv | tail -5
 
